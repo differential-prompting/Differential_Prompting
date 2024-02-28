@@ -31,16 +31,19 @@ To use the command line tool, run the following command:
 
 ```bash
 cd main
+```
+
+```bash
 python DP.py
 ```
 
 You need enter the valid key value for accessing Gemini:
 
-<img src="img.png" alt="图片描述" width="400" height="40">
+<img src="img.png" alt="picture" width="400" height="40">
 
 If your key value is invalid,you can not get the right result as follows:
 
-<img src="img_1.png" alt="图片描述" width="500" height="400">
+<img src="img_1.png" alt="picture" width="480" height="400">
 
 Once the command is executed, the results will be saved in the `results.xlsx` file.
 

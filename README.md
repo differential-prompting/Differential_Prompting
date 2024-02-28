@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://github.com/Zhangsixuan1121/Differential_Prompting/issues/1#issue-2158671660
+https://github.com/Zhangsixuan1121/Differential_Prompting/assets/125631501/460e59b1-ca47-42a7-9857-27257f84f61b
 
 ## Description
 

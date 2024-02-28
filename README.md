@@ -27,6 +27,7 @@ Differential Prompting is an approach that can effectively find failure-inducing
 To use the command line tool, run the following command:
 
 ```bash
+cd main
 python DP.py
 ```
 
@@ -34,7 +35,9 @@ You need enter the valid key value for accessing Gemini:
 
 ![img.png](img.png)
 
+If your key value is invalid,you can not get the right result as follows:
 
-Once the command is executed, the results will be saved in the `results.xlsx` directory.
+![img_1.png](img_1.png)
 
-Overall, this optimized instruction should be easier for users to understand and follow.
+Once the command is executed, the results will be saved in the `results.xlsx` file.
+

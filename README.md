@@ -39,9 +39,9 @@ python DP.py
 
 You need enter the valid key value for accessing Gemini:
 
-<img src="img.png" alt="picture" width="400" height="40">
+<img src="img.png" alt="picture" width="390" height="40">
 
-If your key value is invalid,you can not get the right result as follows:
+If your key value is invalid, you can not get the right result as follows:
 
 <img src="img_1.png" alt="picture" width="480" height="400">
 

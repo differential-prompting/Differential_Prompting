@@ -2,7 +2,6 @@
 
 ## Demo
 
-<iframe src="http://player.bilibili.com/player.html?aid=1501099782&bvid=BV1nS421A7HX&cid=1453547976&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 https://github.com/Zhangsixuan1121/Differential_Prompting/issues/1#issue-2158671660
 
 ## Description

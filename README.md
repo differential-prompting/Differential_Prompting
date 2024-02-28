@@ -2,10 +2,7 @@
 
 ## Demo
 
-<video controls width="640" height="360">
-    <source src="demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<iframe src="//player.bilibili.com/player.html?aid=1501099782&bvid=BV1nS421A7HX&cid=1453547976&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## Description
 

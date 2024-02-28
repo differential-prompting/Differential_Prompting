@@ -23,7 +23,7 @@ def run():
     sheet = workbook.active
 
     # Set the header line
-    sheet.cell(row=1, column=2, value="是否找到Failure-inducing test case?")
+    sheet.cell(row=1, column=2, value="Is a Failure-inducing test case found?")
     sheet.cell(row=1, column=3, value="Test input")
     sheet.cell(row=1, column=4, value="Assertion")
 
@@ -76,8 +76,8 @@ def run():
         return process.communicate(input_data.encode("utf-8"))[0]
 
     i = 1
-    while i <= 10:
-        print(f"Test {i}：")
+    while i <= 1:
+        # print(f"Test {i}：")
         # generating reference versions
         # Prepare user input
         j = 1
@@ -133,7 +133,7 @@ def run():
         coverage_found = False
         test_num = 1
         while test_num <= 10:
-            print(f"The test inputs generation {test_num}:")
+            print(f"Test inputs generation {test_num}:")
             # generating test inputs
             # Prepare user input
             user_input = "Please generate diverse test inputs for the following code.Please put Test input: as a separate line in front of each test input,no other explain is needed."
@@ -161,7 +161,7 @@ def run():
                     # print(reply_content)
                     ai_reply = reply_content['candidates'][0]['content']['parts'][0]['text']
                     print("AI:", ai_reply)
-                    output_file_2 = f"test_{i}/test_case{test_num}.txt"
+                    output_file_2 = f"test_{i}/test_inputs_{test_num}.txt"
                     # Writing the AI's response to a file
                     with open(output_file_2, 'w') as f:
                         f.write(ai_reply)
